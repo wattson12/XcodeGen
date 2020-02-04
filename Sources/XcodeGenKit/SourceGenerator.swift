@@ -412,7 +412,7 @@ class SourceGenerator {
             .filter { $0.isDirectory && $0.extension == nil && $0.extension != "lproj" }
 
         let filePaths = children
-            .filter { $0.isFile || $0.extension != nil && $0.extension != "lproj" }
+            .filter { $0.isFile && $0.extension != "swp" || $0.extension != nil && $0.extension != "lproj" }
 
         let localisedDirectories = children
             .filter { $0.extension == "lproj" }
