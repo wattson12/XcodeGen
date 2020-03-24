@@ -5,7 +5,7 @@ import Spectre
 import XcodeProj
 import XCTest
 import Yams
-import TestSupport
+import XcodeGenTestSupport
 import Version
 
 class SpecLoadingTests: XCTestCase {

@@ -51,7 +51,7 @@ let package = Package(
             "PathKit",
             "Yams",
         ]),
-        .target(name: "TestSupport", dependencies: [
+        .target(name: "XcodeGenTestSupport", dependencies: [
             "XcodeProj",
             "Spectre",
             "PathKit",
@@ -60,31 +60,31 @@ let package = Package(
             "XcodeGenKit",
             "Spectre",
             "PathKit",
-            "TestSupport",
+            "XcodeGenTestSupport",
         ]),
         .testTarget(name: "FixtureTests", dependencies: [
             "XcodeGenKit",
             "Spectre",
             "PathKit",
-            "TestSupport",
+            "XcodeGenTestSupport",
         ]),
         .testTarget(name: "CoreTests", dependencies: [
             "Core",
             "Spectre",
             "PathKit",
-            "TestSupport",
+            "XcodeGenTestSupport",
         ]),
         .testTarget(name: "ProjectSpecTests", dependencies: [
             "ProjectSpec",
             "Spectre",
             "PathKit",
-            "TestSupport",
+            "XcodeGenTestSupport",
         ]),
         .testTarget(name: "PerformanceTests", dependencies: [
             "XcodeGenKit",
             "Spectre",
             "PathKit",
-            "TestSupport",
+            "XcodeGenTestSupport",
         ]),
     ]
 )

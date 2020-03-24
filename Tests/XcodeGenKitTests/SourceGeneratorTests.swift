@@ -5,7 +5,7 @@ import XcodeGenKit
 import XcodeProj
 import XCTest
 import Yams
-import TestSupport
+import XcodeGenTestSupport
 
 class SourceGeneratorTests: XCTestCase {
 

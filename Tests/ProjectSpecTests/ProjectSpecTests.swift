@@ -3,7 +3,7 @@ import ProjectSpec
 import Spectre
 import XcodeProj
 import XCTest
-import TestSupport
+import XcodeGenTestSupport
 import Version
 
 class ProjectSpecTests: XCTestCase {

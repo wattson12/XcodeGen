@@ -3,7 +3,7 @@ import Spectre
 import XCTest
 import PathKit
 @testable import XcodeGenKit
-import TestSupport
+import XcodeGenTestSupport
 
 class CarthageDependencyResolverTests: XCTestCase {
 

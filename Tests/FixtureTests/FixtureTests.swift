@@ -4,7 +4,7 @@ import Spectre
 import XcodeGenKit
 import XcodeProj
 import XCTest
-import TestSupport
+import XcodeGenTestSupport
 
 class FixtureTests: XCTestCase {
 
